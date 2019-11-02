@@ -2,71 +2,104 @@
 
 \begin{cventries}
   \cventry
-    {Software Engineer} % Job title
-    {Facebook} % Organization
-    {Menlo Park, CA} % Location
-    {July 2019 - PRESENT} % Date(s)
+    {Sr. Software Developer} % Job title
+    {Hike Messenger} % Organization
+    {Delhi} % Location
+    {May 2014 - Present} % Date(s)
     {
+     \vspace{3pt}
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {placeholder}
+        \item {Working in \textbf{core backend team} of hike \textbf{responsible for entire end-to-end backend of messaging} \textbf{for 100+ million users}. Have headed \& \textbf{architected several projects from scratch} from the initial days of hike. Have also \textbf{scaled \& re-architected} several parts of the systems in my tenure to \textbf{handle exponential growth} seen by hike both in terms of \textbf{messaging and number of users}}
+		\item {\textbf{Lead the Architecture and Implementation} of the following features' \textbf{end-to-end backend}}
+        \begin{cventries}
+          \cventry
+            {} % Job title
+            {} % Organization
+            {} % Location
+            {} % Date(s)
+            {
+             \vspace{-20pt}
+              \begin{cvsubitems}
+                \item {\textbf{Hike Payments} - \textbf{Hike wallet}, integrating merchants like \textbf{Hike Recharge, Zomato}, etc, \textbf{Blue packets} - a fun way of micro-payments, integrating with \textbf{Payment Gateways}, automating \textbf{reconciliation \& settlement}, security \& CS front-end \& tooling}
+                \item {\textbf{File Transfer} - with \textbf{pause/resume} via \textbf{chunk uploading}. Further improved the user experience by \textbf{super fast uploading} of existing content via \textbf{MD5}}
+		        \item {\textbf{Secondary Message Store} - Brought this concept for \textbf{mass campaigns to optimise storage}. A Redis backed storage layer to deliver campaigns and other low priority messages}
+		        \item {\textbf{DX Framework} - A \textbf{zookeeper} based \textbf{Rule Engine} for schedule messages/system packets delivery to the user at D0,D1,DX, etc. at runtime. Rules included specifying device details, new user/returning user checks, upgrade, etc. This empowered PMs in \textbf{feature rollouts \& experiments}}
+		        \item {\textbf{User Signup \& Onboarding} - \textbf{OTP \& Missed call} based number verification system for user on-boarding}
+		        \item {\textbf{Reward Campaigns} - for user growth which provided \textbf{2X increase in DAU}. The campaigns included rewarding both users by inviting someone on hike, or by performing certain actions (like engaging with other users). \textbf{Integrated} with 3rd party recharge partners like \textbf{PayTM, Oxigen}}
+		        \item {\textbf{Pre-activation Service} - to perform \textbf{experiments/monitor \& attribute user behaviour before signup}}
+        		\item {\textbf{Multidevice support} - for \textbf{Hike Web}}
+        		\item {\textbf{App Migration} - \textbf{Secure \& Seamless Migration} from old to new Hike app}
+            	\item {\textbf{Message Tracking Framework} - for \textbf{message reliability}. Working closely with the Data Analysts \& Product managers \& continuously monitoring \& solving user issues around messaging}
+              \end{cvsubitems}
+            }
+        \end{cventries}
+		\item {\textbf{Live Database Migrations} - Did the following live DB migrations efficiently with data checks and \textbf{Zero downtime}}
+        \begin{cventries}
+          \cventry
+            {} % Job title
+            {} % Organization
+            {} % Location
+            {} % Date(s)
+            {
+             \vspace{-20pt}
+              \begin{cvsubitems}
+                \item {\textbf{Address Book} - Migrated from \textbf{Mysql to HBase} \& subsequently from \textbf{HBase to Big Table (BT)} along with a redis based cache layer}
+                \item {\textbf{Timeline's stories} - Migrated from \textbf{HBase to BT}}
+                \item {\textbf{Offline Message Store} - Migrated from \textbf{MongoDB to HBase} during live messaging. Users were migrated in batches. This could handle 2X load of the original cluster}
+              \end{cvsubitems}
+            }
+        \end{cventries}
+		\item {\textbf{Service Integrations}}
+        \begin{cventries}
+          \cventry
+            {} % Job title
+            {} % Organization
+            {} % Location
+            {} % Date(s)
+            {
+             \vspace{-20pt}
+              \begin{cvsubitems}
+                \item {\textbf{Push Notification Service (PNS)} - Integrated with \textbf{APNS(iOS)/FCM(Android)} for proactively reaching client for message delivery \& keeping the \textbf{end-to-end messaging latency low}}
+        		\item {\textbf{Cloudinary CDN} - \textbf{Improved client latencies} significantly by \textbf{serving images and videos through CDN}. Earlier implementation included serving through app servers via S3. Also adapted \textbf{network based video quality streaming via CDN} to improve overall user experience}
+              \end{cvsubitems}
+            }
+        \end{cventries}
+		\item {\textbf{Micro-Services Architecture}}
+        \begin{cventries}
+          \cventry
+            {} % Job title
+            {} % Organization
+            {} % Location
+            {} % Date(s)
+            {
+             \vspace{-20pt}
+              \begin{cvsubitems}
+		        \item {Lead efforts in moving from \textbf{monolith to micro-services} based architecture. \textbf{Exposed lot of micro-services} such as block, friends, Send-Mqtt, Prey, Addressbook \textbf{on thrift} to align with service oriented architecture across teams. \textbf{Converted redundant code to libs} across micro-services.}
+              \end{cvsubitems}
+            }
+        \end{cventries}
+      \end{cvitems}
+      \vspace{6pt}
+    }
+%    
+%   \cventry
+%     {} % Job title
+%     {} % Organization
+%     {} % Location
+%     {} % Date(s)
+%     {
+%       \begin{cvitems}
+%       \end{cvitems}
+%     }
+  \cventry
+    {Software Developer} % Job title
+    {BlackNGreen} % Organization
+    {Gurgaon} % Location
+    {Jul. 2013 - Mar. 2014} % Date(s)
+    {
+     \vspace{3pt}
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Developed a platform which allows the development of custom IVR(Interactive Voice Response) using drag-n-drop. It is also equipped with a scheduler for OBD(Out Bound Calls).}
       \end{cvitems}
     }
-
-  \cventry
-    {Software Engineer Intern (Part Time)} % Job title
-    {Toast} % Organization
-    {Boston, MA} % Location
-    {Feb. 2019 - June 2019} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Built the infrastructure and automation pipeline for Android's Espresso test framework, enabling developers to use Espresso for UI tests instead of the current, significantly slower, custom Appium-based framework. Used Jenkins, AWS EC2, and Genymotion Cloud for scalability.}
-      \end{cvitems}
-    }
-
-  \cventry
-    {Software Engineer Intern} % Job title
-    {Drizly} % Organization
-    {Boston, MA} % Location
-    {May. 2018 - Aug. 2018} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Implemented a re-designed onboarding workflow with automated Salesforce integration for new customers to streamline the onboarding process for both customers and account managers.}
-      \end{cvitems}
-    }
-
-  \cventry
-    {Software Engineer Intern} % Job title
-    {Facebook} % Organization
-    {Menlo Park, CA} % Location
-    {Jan. 2018 - Apr. 2018} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Helped migrate the Instagram Django web server to perform parallel IO operations and handle concurrent requests within each worker process to reduce latency and increase capacity as the app scales with users and features.}
-		\item {Created a framework to safely predict the performance and correctness of worker processes handling concurrent requests from a production environment. Preemptively caught and fixed regressions related to increased cpu instructions, caching, and global state contamination.}
-      \end{cvitems}
-    }
-
-  \cventry
-    {Software Engineer Intern} % Job title
-    {Toast} % Organization
-    {Boston, MA} % Location
-    {Jan. 2017 - Aug. 2017} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Built a microservice, database schema, and related web pages to manage customer accounts --- 50,000+ created within the first two months.}
-		\item {Designed and helped implement a second microservice to build the foundation for upcoming payment features and reduce technical debt.}
-		\item {Enhanced the audit tool to query real-time data from restaurants' Android devices, proactively resolving customers' configuration bugs.}
-      \end{cvitems}
-    }
-
-  \cventry
-    {Programming Mentor, TA} % Job title
-    {CSTUY Hacking Sessions} % Organization
-    {New York, NY} % Location
-    {Sept. 2014 - Mar. 2015} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Taught programming concepts to high school students using Java and Processing while providing input for lesson plans and project ideas.}
-      \end{cvitems}
-    }    
 \end{cventries}
